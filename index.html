@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Office Monitor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Smart Office Monitor</h1>
+
+  <form id="input-form">
+    <label>Tanggal: <input type="date" id="tanggal" required /></label><br/>
+    <label>Meteran Listrik (kWh): <input type="number" id="listrik" required /></label><br/>
+    <label>Meteran Air (m³): <input type="number" id="air" required /></label><br/>
+    <button type="submit">Simpan</button>
+  </form>
+
+  <h2>Riwayat Konsumsi</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Tanggal</th>
+        <th>Listrik (kWh)</th>
+        <th>Air (m³)</th>
+        <th>Konsumsi Listrik</th>
+        <th>Konsumsi Air</th>
+      </tr>
+    </thead>
+    <tbody id="log-tabel"></tbody>
+  </table>
+
+  <h2>Saran Penghematan</h2>
+  <div id="saran"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

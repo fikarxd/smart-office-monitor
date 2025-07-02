@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+#saran {
+  background-color: #f0f8ff;
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 4px solid #008080;
+}
